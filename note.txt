@@ -1,0 +1,13 @@
+流程
+1.创建项目和spider
+scrapy startproject Pro_name
+cd Pro_name
+scrapy genspider my_spider
+scrapy crawl my_spider
+2.定义url
+3.定义数据模型
+4.解析数据
+5.在管道中保存数据
+6.在下载中间件中配置请求头
+7.在设置中激活管道对象和下载中间件
+8.运行spider
